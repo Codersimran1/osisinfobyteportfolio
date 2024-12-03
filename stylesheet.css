@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+    background-color: rgb(13, 10, 69);
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: rgb(39, 141, 214);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content {
+    max-width: 600px;
+    align-items: center;
+    margin-left: 14rem;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p {
+    font-size: 20px;
+    align-items: center;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+    background: #0ef;
+    color: #081b29;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    font-weight: 600;
+}
+
+.design .circle {
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.circle:nth-child(1) {
+    background: rgb(113, 192, 198);
+    width: 28rem;
+}
+
+.circle:nth-child(2) {
+    background: #081b29;
+    width: 25rem;
+    background-image: url(simran.jpg);
+    background-size: 95%;
+    /* background-repeat: no-repeat; */
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+.about-text h1 span {
+    color: #0ef;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-text h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+section.project {
+    height: 600px;
+    background-color: ;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0ef;
+    animation-name: heading-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading-animation {
+    25 {}
+}
+
+.Project-image {
+    margin: 30px 0;
+    align-content: center;
+    display: flex;
+}
+
+.Project img {
+    width: 40%;
+    height: 350px;
+    margin-top: 3%;
+    box-shadow: 10px 10px 8px #727272;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+.Projects img:hover {
+    transform: scale(1.09);
+}
+
+.project-title h2 {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+
+.project-title .t1 {
+    margin-left: 7%;
+}
+
+.project-title .t2 {
+    margin-left: 20%;
+}
+
+.content {
+    margin-left: 100px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.contact-text h2 {
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    color: #0ef;
+    margin-left: 600px;
+    padding-right: 66;
+}
